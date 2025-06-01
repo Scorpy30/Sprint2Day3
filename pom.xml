@@ -47,6 +47,21 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- Spring AOP (for @Aspect, @Before support) -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>5.3.34</version> <!-- Match your Spring version -->
+        </dependency>
+
+        <!-- AspectJ Weaver (required for AOP to work at runtime) -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.21</version> <!-- Latest stable -->
+        </dependency>
+
+
 
     </dependencies>
 
